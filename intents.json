@@ -1,0 +1,28 @@
+{"intents": [
+    {"tag": "greeting",
+     "patterns": ["Hi there!!", "How are you?", "Is anyone there?",
+                    "Hey","Hola", "Hello"],
+     "responses": ["Hello!!, thanks for asking.", "Good to see you again.", 
+                    "Hi there, how can I help?"]
+    },
+    {"tag": "goodbye",
+     "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", 
+                  "Till next time"],
+     "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Good day"]             
+    },
+    {"tag": "thanks",
+     "patterns":["Thank you", "Thanks a lot", "Thank you so much"],
+     "responses":["Your Welcome", "It was nice solving your problem", "I was glad I was able to help you", "You welcome Is there anything I can help you with?" ]
+    },
+    {"tag":"no answer",
+     "patterns":[""],
+     "responses":["I am sorry I didn't get that", "Sorry I don't understand", "Can you type that again"]
+    },
+    {"tag":"welcome",
+     "patterns":["You are great", "You are amazing", "Perfect response", "Perfect answer", "Good", "Great", "So sweet of you"],
+     "responses":["Thanks a lot", "Thankyou so much", "Thankyou so sweet of you", "I am glad you like it"]
+    }
+  ]
+}
+
+    
